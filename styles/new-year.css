@@ -392,3 +392,51 @@ main section {
   font-size: 18px;
   padding-left: 25px;
 }
+
+/* footer style */
+footer{
+  width: 1600px;
+  height: 609px;
+  background-color:#070211;
+  margin: 120px auto 0;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+  font-size:24px;
+  color:rgba(255, 255, 255, 1);
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+footer .address, footer .contact{
+  line-height: 40px;
+}
+hr{
+  max-width: 1320px;
+  height: 0;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255,0.15) ;
+}
+.social-media{
+ display: flex;
+ justify-content: center;
+ gap: 24px;
+padding:48px 640px ;
+}
+.footer-foot{
+  display: flex;
+  gap:900px;
+  padding:50px 140px 120px;
+  /* justify-content:space-around; */
+  font-family: "Inter", sans-serif;
+  font-size:24px;
+  color:rgba(255, 255, 255, 1);
+  margin-bottom: 50px;
+}
+.phone,.website{
+  display:flex;
+  justify-content: center;
+  gap:20px;
+}
+
