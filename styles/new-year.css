@@ -81,7 +81,7 @@ header .happy-off h3 {
 }
 
 /* main style */
-main {
+main section{
   max-width: 1320px;
   margin: 120px auto;
 }
@@ -228,6 +228,8 @@ color: #FF0000;
 .holiday-sale{
   height: 986.07px;
   margin-top: 120px;
+  margin-bottom: 120px;
+  
 }
 .sale-description{
 max-width: 1068px;
@@ -235,6 +237,7 @@ margin: 0 auto;
 height: 260px;  
 font-family: "Inter", sans-serif;
 text-align: center;
+
 }
 .holiday-sale .sale-description #functional{
 font-size: 24px;
@@ -256,15 +259,54 @@ margin-bottom: 16px;
 color: #070211;
 line-height: 32px;
 }
+.holiday-sale #ract{
+  position: relative;
+  bottom:170px ;
+}
 .holiday-sale #gift{
   position: relative;
-  top: 230px;
+  top: 65px;
+  z-index: 1;
 }
 .holiday-sale #discount{
   position: relative;
-  bottom:60px ;
+  bottom:230px ;
   left: 170px;
 }
+
+/* product-portfolio styles */
+
+.product-portfolio{
+height:1163px;
+margin-top: 120px;
+font-family: "Inter", sans-serif;
+}
+.product-portfolio .portfolio-description #portfolio-title{
+font-size: 24px;
+font-weight: 500;
+color: #FF0000;
+margin-bottom:16px;
+}
+.product-portfolio .portfolio-description h3{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight:900;
+  color:#070211;
+  margin-bottom: 22px;
+ }
+ .product-portfolio .portfolio-description p{
+  font-size: 20px;
+  font-weight:400;
+  color:#070211;
+  line-height: 32px;
+  margin-bottom: 48px;
+  width: 896px;
+ }
+ .portfolio-showcase{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+ }
 
 
 
