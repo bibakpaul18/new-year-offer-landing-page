@@ -38,10 +38,10 @@
 .new-year-title {
   font-family: "Merriweather", serif;
   color: rgba(255, 255, 255, 1);
-  position: absolute;
+  position: relative;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* left: 50%; */
+  transform: translateY(-50%);
   text-align: center;
 }
 
@@ -151,8 +151,8 @@ main {
   line-height: 56px;
   position: relative;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* left: 50%; */
+  transform: translateY(-50%);
   text-align: center;
 }
 .joining-description span{
@@ -168,3 +168,62 @@ color: #FF0000;
   border-radius:8px ;
   margin-top: 48px;
 }
+/* offer section styles */
+.offer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 463px;
+  font-family: "Inter", sans-serif;
+  margin-top: 120px;
+}
+.offer .offer-soon{
+  width:393px;
+  height:255px;
+  
+}
+ .offer-soon p{
+  font-size: 24px;
+  font-weight:500;
+  color: #FF0000;
+  margin-bottom: 16px;
+ }
+ .offer-soon h3{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight:900;
+  color:#070211;
+  margin-bottom: 22px;
+ }
+ .offer-soon #offer-descrip{
+  font-size: 20px;
+  font-weight:400;
+  color:#070211;
+  line-height: 32px;
+ }
+ .offer #image img{
+  border: 16px solid #FF0000;
+  border-radius: 50%;
+  padding:50px;
+ }
+ .year-2024{
+  height: 353px;
+  width: 276px;
+  padding-top: 60px;
+ }
+.offer .year-2024 h3{
+  font-size: 48px;
+  font-weight:bold;
+  color: #FF0000;
+  margin-bottom: 16px;
+}
+.offer .year-2024 p{
+  font-size: 20px;
+  font-weight:400;
+  color: #070211;
+  margin-bottom: 43px;
+  line-height: 32px;
+}
+
+
+
